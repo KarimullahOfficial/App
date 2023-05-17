@@ -1,0 +1,10 @@
+@media (max-width: 1030px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: ) {
+  h1,
+  h2 {
+    font-size: 2.5rem;
+  }
+}
