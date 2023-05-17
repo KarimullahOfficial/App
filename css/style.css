@@ -36,11 +36,58 @@
   transition: 0.3s;
   background: transparent;
 }
+.navbar .navbar-nav .navbar-link {
+  padding: 1.875rem 1.25rem;
+  color: var(--text-white);
+  text-transform: capitalize;
+  transition: 3s;
+}
+.navbar-brand img {
+  max-width: 50%;
+}
+.navbar-sticky-on .navbar-link:hover,
+.navbar-sticky-on .navbar-link:active {
+  color: var(--text-light-pink) !important;
+}
+.navbar-sticky-on .navbar-link {
+  color: var(--text-light-gray);
+}
+.navbar .navbar-brand-sticky {
+  display: none;
+}
+.navbar-brand-sticky-on-regular {
+  display: none;
+}
+.navbar-brand-sticky-on .navbar-brand-sticky {
+  display: inline;
+}
+.navbar-sticky {
+  --webkit-transition: none !important;
+  transition: none;
+}
+
 h1 {
   color: var(--text-white);
   font-size: 2.875rem;
   line-height: 3.75rem;
   font-weight: 400;
+}
+.navbar-sticky-transitioned {
+  --webkit-transition: 0.3s !important;
+  transition: 0.3s;
+}
+.navbar-sticky-moved-up {
+  position: fixed;
+  top: 0;
+  background: var(--bg-white);
+  margin-top: -6.25rem;
+}
+.navbar-sticky-on {
+  margin-top: 0;
+  --webkit-transition: 0.3s;
+  transition: 0.3s;
+  --webkit-shadow: rgba(0, 0, 0, 0.6) 0px 0px 20px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 20px;
 }
 h2 {
   color: var(--text-black);
