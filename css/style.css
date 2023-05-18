@@ -349,3 +349,12 @@ li {
   padding-top: 0.625rem;
   font-size: 0.938rem;
 }
+#feature .title {
+  height: 800px;
+  text-align: left;
+  margin-top: 0;
+  padding-top: 100px;
+  background: url("../image/feature-bg.png") no-repeat center center;
+  background-size: cover;
+  --webkit-background-size: cover;
+}
