@@ -1,4 +1,49 @@
 @media (max-width: 1030px) {
 }
 @media (max-width: 991px) {
+  h1,
+  h2 {
+    font-size: 2.5rem;
+  }
+  .ipad-px-30 {
+    padding: 0 1.875rem;
+  }
+  .nabar {
+    padding-top: 0.625rem;
+    padding-bottom: 0.75rem;
+  }
+  .nabr-brand {
+    width: 50%;
+  }
+  .nabr-brand img {
+    max-width: 60%;
+  }
+  .navbar-toggler {
+    padding-right: 0;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-toggler-icon {
+    color: var(--text-white);
+    width: 1em;
+    height: 1em;
+  }
+  .navbar-sticky-on .navbar-toggler-icon {
+    color: var(--text-black);
+  }
+  .navbar .nabar-nav {
+    background: var(--bg-black);
+    border-radius: 0.188rem;
+    text-align: center;
+  }
+  .navbar .nabar-nav .nav-link {
+    padding: 0.625rem 1.5rem;
+    color: var(--text-light-gray);
+  }
+}
+@media (max-width: 767px) {
+  .ipad-px-30 {
+    padding: 0 1.875rem;
+  }
 }

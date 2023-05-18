@@ -228,7 +228,6 @@ li {
 .home img {
   text-align: right;
   transform: rotate(-90deg);
-  height: 50%;
 }
 .home img {
   animation: float 3s linear infinite;
@@ -239,6 +238,12 @@ li {
     transform: translateY(0rem);
   }
   50% {
-    transform: translateY(-3.5rem);
+    transform: translateY(3.5rem);
   }
+}
+.navbar .nabar-nav .nav-link {
+  font-size: 10px;
+  font-weight: 300;
+  color: white;
+  padding: 5px;
 }
