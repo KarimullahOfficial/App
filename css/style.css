@@ -273,3 +273,79 @@ li {
 .single-counter:last-child::after {
   display: none;
 }
+.promo-sction {
+  padding: 6.25rem 0 4rem;
+}
+
+.section-heading h2 {
+  position: relative;
+  padding-bottom: 2.5rem;
+}
+.section-heading h2 ::after {
+  position: absolute;
+  content: "";
+  height: 0.125rem;
+  width: 10.563rem;
+  background: var(--bg-light-pink);
+  bottom: 1.125rem;
+  left: 50%;
+  --webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.section-heading h2 span {
+  font-weight: 400;
+  font-size: 2rem;
+}
+.single_promo_hover {
+  transition: all 0.2s ease-out;
+  --webkit-transition: all 0.2s ease-out;
+  --moz-transition: all 0.2s ease-out;
+  --ms-transition: all 0.2s ease-out;
+  --o-transition: all 0.2s ease-out;
+  will-change: transform;
+}
+.single_promo_1 {
+  box-shadow: 0 3px 20px 0px rgba(0 0 0 /12%);
+  border-radius: 1.5rem;
+  padding: 2.875rem 2.5rem 2.5rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+  margin-top: 3rem;
+}
+.single_promo_1::before {
+  position: absolute;
+  content: "";
+  width: 0.063rem;
+  height: 0.125rem;
+  top: 0rem;
+  left: 0rem;
+  border-radius: 50%;
+  transition: all 0.2s ease-out;
+  --webkit-transition: all 0.2s ease-out;
+  --moz-transition: all 0.2s ease-out;
+  --ms-transition: all 0.2s ease-out;
+  --o-transition: all 0.2s ease-out;
+}
+.single_promo_1:hover::before {
+  width: 100%;
+  background: var(--bg-light-pink);
+}
+.single_promo_hover:hover {
+  box-shadow: 0 2rem 5rem rgba(0 0 0 /12%);
+}
+.single_promo_hover span {
+  font-size: 30px;
+  background: url("../image/promo-icon-bg.png");
+  padding: 54px 0 57px 0;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.single_promo_1 h5 {
+  padding-bottom: 0.438rem;
+}
+.single_promo1_p {
+  padding-top: 0.625rem;
+  font-size: 0.938rem;
+}
