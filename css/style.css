@@ -181,8 +181,8 @@ img {
   padding: 100px 0;
 }
 #home {
-  min-height: 800px;
-  height: 50%;
+  min-height: 900px;
+  height: 100%;
   background: rgba(0, 0, 0, 0.6) url("../image/bg.png") no-repeat scroll left
     center;
   background-size: cover;
@@ -190,4 +190,55 @@ img {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+.navbar-nav .navbar-brand .nav-item,
+ul,
+li {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  background-color: var(--bg-white);
+}
+#home .hometext {
+  font-size: 1rem;
+  color: var(--text-white);
+  padding: 1.063rem 0;
+}
+#home .home-download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+#home .home-download-btn .btn:first-child {
+  margin-left: 0;
+}
+#home .home-download-btn .btn:hover {
+  transform: translateY(-0.313rem);
+  --webkit-transition: all 0.5s ease-out;
+  --moz-transition: all 0.5s ease-out;
+  --ms-transition: all 0.5s ease-out;
+  --o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+#home .home-download-btn span {
+  font-size: 1.688rem;
+  margin-right: 0.625rem;
+}
+.home img {
+  text-align: right;
+  transform: rotate(-90deg);
+  height: 50%;
+}
+.home img {
+  animation: float 3s linear infinite;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(-3.5rem);
+  }
 }
