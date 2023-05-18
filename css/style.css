@@ -180,3 +180,14 @@ img {
 .ptb_100 {
   padding: 100px 0;
 }
+#home {
+  min-height: 800px;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.6) url("../image/bg.png") no-repeat scroll left
+    center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
