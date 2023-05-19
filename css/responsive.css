@@ -1,4 +1,7 @@
 @media (max-width: 1030px) {
+  .margin_top_up {
+    margin-top: -25rem;
+  }
 }
 @media (max-width: 991px) {
   h1,
@@ -62,11 +65,24 @@
   }
 }
 @media (max-width: 767px) {
+  .single-counter:nth-child(2)::after {
+    display: none;
+  }
   .ipad-px-30 {
     padding: 0 1.875rem;
   }
   #home {
     padding-top: 5rem;
+  }
+  .feature-middle {
+    text-align: center;
+  }
+  .feature-image {
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+  .feature-image img {
+    max-width: 95%;
   }
   #home .home-text h2 {
     font-size: 2.438rem;
@@ -84,5 +100,8 @@
   h5 {
     align-items: center;
     display: block;
+  }
+  .margin_top_up {
+    margin-top: 0.345rem;
   }
 }
