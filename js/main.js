@@ -46,3 +46,43 @@ function navMenu() {
   };
 }
 navMenu();
+// var swiper = new Swiper(".swiper-container .app-screen", {
+//   effect: "coverflow",
+//   loop: true,
+//   autoplaySpeed: 3000,
+
+//   centeredSlides: true,
+//   slidesPerView: "auto",
+//   paginationClickable: true,
+//   autoplay: {
+//     delay: 5000,
+//     disableOnInteraction: false,
+//   },
+//   coverflowEffect: {
+//     rotate: 0,
+//     stretch: 100,
+//     depth: 150,
+//     modifier: 1.5,
+//     slideShadows: false,
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+// });
+// var swiper = new swiper(".mySwiper", {
+//   effect: "coverflow",
+//   grabCursor: true,
+//   centeredSlides: true,
+//   slidesPerView: "auto",
+//   coverflowEffect: {
+//     rotate: 50,
+//     stretch: 0,
+//     depth: 100,
+//     modifier: 1,
+//     slideShadows: true,
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//   },
+// });
