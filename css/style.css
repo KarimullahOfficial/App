@@ -273,15 +273,17 @@ li {
 .single-counter:last-child::after {
   display: none;
 }
-.promo-sction {
+.promo-section {
   padding: 6.25rem 0 4rem;
 }
-
-.section-heading h2 {
+.section-heading {
+  margin-bottom: 2.813rem;
+}
+.section-heading > h2 {
   position: relative;
   padding-bottom: 2.5rem;
 }
-.section-heading h2 ::after {
+.section-heading > h2 ::after {
   position: absolute;
   content: "";
   height: 0.125rem;
@@ -292,6 +294,7 @@ li {
   --webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+
 .section-heading h2 span {
   font-weight: 400;
   font-size: 2rem;
