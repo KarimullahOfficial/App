@@ -167,10 +167,15 @@ img {
   outline: 0 none;
   position: relative;
   z-index: 1;
+  background-color: var(--bg-light-pink);
+}
+.navbar-nav .nav-link {
+  background: var(--bg-white);
+  color: black;
 }
 .btn,
 .btn :active,
-.btn-sApp-btn::before .bg-overlay::after {
+.btn::before .bg-overlay::after {
   background-color: var(--bg-light-pink);
 }
 .btn :hover {
@@ -191,14 +196,14 @@ img {
   justify-content: center;
   overflow: hidden;
 }
-.navbar-nav .navbar-brand .nav-item,
+/* .navbar-nav .navbar-brand .nav-item,
 ul,
 li {
   color: white;
   padding: 5px;
   text-decoration: none;
   background-color: var(--bg-white);
-}
+} */
 #home .hometext {
   font-size: 1rem;
   color: var(--text-white);
@@ -440,4 +445,35 @@ li {
   height: 60%;
   object-fit: cover;
   padding-bottom: 5rem;
+}
+.single_price {
+  --webkit-box-shadow: 0 0.313rem 0.875rem rgba(45 49 54 /9);
+  box-shadow: 0 0.313rem 0.875rem rgba(45 49 54 /9);
+  text-align: center;
+  padding: 2.5rem 0;
+  position: relative;
+  transition: all 0.2s ease-out;
+  --webkit-transition: all 0.2s ease-out;
+  --ms-transition: all 0.2s ease-out;
+  --o-transition: all 0.2s ease-out;
+  --moz-transition: all 0.2s ease-out;
+}
+.single_price .month {
+  background: var(--bg-light-pink);
+  color: var(--text-white);
+  width: 6.25rem;
+  padding: 0.625rem;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 1.625rem;
+  right: -0.625rem;
+}
+.single_price .month:before {
+  content: "";
+  top: 0.563rem;
+  left: -0.938rem;
+  background: var(--bg-light-pink);
+  position: absolute;
+  transform: rotate(45deg);
+  padding: 0.738rem;
 }
