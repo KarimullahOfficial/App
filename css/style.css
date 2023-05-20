@@ -538,3 +538,11 @@ li {
   font-size: 1rem;
   box-shadow: 0 0.1875rem;
 }
+.copyright {
+  background: var(--bg-light-pink);
+  margin-top: 2rem;
+}
+.copyright p,
+.copyright a {
+  color: var(--text-white);
+}
