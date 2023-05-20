@@ -476,4 +476,57 @@ li {
   position: absolute;
   transform: rotate(45deg);
   padding: 0.738rem;
+  margin: auto;
+}
+.single_price .icon-circle {
+  background: var(--bg-light-pink);
+  color: var(--bg-white);
+  width: 3.375rem;
+  height: 3.375rem;
+  border-radius: 100%;
+  margin: 0 0 0 -0.063rem;
+  padding-left: 0.625rem;
+  padding: 1.125rem;
+  font-size: 1.625rem;
+  margin: auto;
+}
+.single_price .dollar h2 {
+  font-weight: 700;
+  font-size: 2.813rem;
+}
+.single_price .dollar h2 span {
+  font-weight: 600;
+  vertical-align: super;
+  padding-right: 0.125rem;
+  font-size: 1.875rem;
+}
+.single_price li {
+  padding: 0.313rem 0;
+}
+.single_price :hover {
+  cursor: pointer;
+  margin-top: -0.625rem;
+}
+.active_price {
+  background: var(--bg-light-pink);
+  color: var(--text-white);
+}
+.active_price h5,
+.active_price .dollar h2 .active_price .dolo-sine {
+  color: var(--text-white);
+}
+.contact {
+  background: var(--bg-light-gray-1);
+}
+.contact .info li i {
+  color: var(--text-black);
+  font-size: 1.5rem;
+}
+.contact .info .li p a {
+  font-size: 1rem;
+  display: inline-block;
+  margin: 0.75rem 0;
+}
+.contact .form-group {
+  margin-bottom: 1.5rem;
 }
