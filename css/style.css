@@ -546,3 +546,25 @@ li {
 .copyright a {
   color: var(--text-white);
 }
+#scrollUp {
+  position: fixed;
+  right: 2%;
+  bottom: 3%;
+  height: 2.813rem;
+  width: 2.5rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  z-index: 500;
+  display: none;
+  transition: all 0.3s ease-in-out 0s;
+  --webkit-transition: all 0.3s ease-in-out 0s;
+  --ms-transition: all 0.3s ease-in-out 0s;
+  --o-transition: all 0.3s ease-in-out 0s;
+  background: var(--bg-light-pink);
+}
+#scrollUp span {
+  line-height: 2.625rem;
+}
+#scrollUp.scrollActive {
+  display: block;
+}

@@ -41,7 +41,6 @@ function navMenu() {
       navBar.classList.add("navbar-sticky-on");
     } else {
       navBar.classList.remove("navbar-sticky-on");
-      console.log("hi");
     }
   };
 }

@@ -553,6 +553,11 @@
         </div>
       </div>
     </footer>
+    <div id="scrollUp" title="Scroll To Top">
+      <a href="#home"
+        ><span> <i class="fa-solid fa-arrow-up fs-4 text-white"></i></span
+      ></a>
+    </div>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/font.js"></script>
     <script src="../js/main.js"></script>
@@ -569,6 +574,32 @@
           clickable: true,
         },
       });
+      function navMenu() {
+        let navBar = document.querySelector(".navbar-sticky");
+        let scrollTopButton = document.querySelector("#scrollUp");
+        window.onscroll = function () {
+          var scroll = document.getElementById.scrollTop;
+
+          if (scroll >= 120) {
+            navBar.classList.add("navbar-sticky-moved-up");
+          } else {
+            navBar.classList.remove("navbar-sticky-moved-up");
+          }
+          if (scroll >= 250) {
+            navBar.classList.add("navbar-sticky-transitioned");
+            scrollTopButton.classList.add("scrollActive");
+          } else {
+            navBar.classList.remove("navbar-sticky-transitioned");
+            scrollTopButton.classList.remove("scrollActive");
+          }
+          if (scroll >= 500) {
+            navBar.classList.add("navbar-sticky-on");
+          } else {
+            navBar.classList.remove("navbar-sticky-on");
+          }
+        };
+      }
+      navMenu();
     </script>
   </body>
 </html>
